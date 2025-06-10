@@ -1,0 +1,29 @@
+.price-range-slider {
+    padding: 0 8px;
+    margin-top: 10px;
+  }
+  
+  .range-track {
+    height: 6px;
+    background: #dee2e6; /* Inactive track color */
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  .range-thumb {
+    height: 16px;
+    width: 16px;
+    background-color: var(--bs-black)!important; /* Match active track */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .range-thumb:hover {
+    background-color: var(--bs-black)!important; /* Darker green on hover */
+  }
+  
+  .range-thumb:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.25); /* Match green theme */
+  }
